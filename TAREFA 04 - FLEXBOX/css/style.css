@@ -1,0 +1,156 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6cfcf;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.cabecalho {
+    height: 70px;
+    background-color: rgb(146, 64, 64);
+    
+}
+
+/* LIDANDO COM O CSS DO MEU CABEÇALHO */
+header ul .titulo {
+    padding-right: 20%;
+    color: antiquewhite;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 2%;
+    padding-top: 20px;
+}
+
+header nav ul li {
+    padding-left: 3%;
+}
+
+header button {
+    color: brown;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 3em;
+    border: 0;
+}
+
+header button:hover {
+    background-color: brown;
+    color: antiquewhite;
+}
+
+#main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* LIDANDO COM MEU MENU LATERAL ESQUERDO */
+
+#menu-lat-esquerdo {
+    background-color: #504444;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 2rem;
+    padding:1rem;
+}
+
+#menu-lat-esquerdo ul {
+    list-style: none;
+}
+
+#menu-lat-esquerdo li {
+    margin-bottom: 10%;
+    list-style: lower-roman;
+}
+
+#menu-lat-esquerdo a {
+    text-decoration: ;
+    color: antiquewhite;
+}
+
+/* LIDANDO COM MEU CONTEÚDO */
+
+section {
+    flex: 3;
+    padding: 20px;
+}
+
+ul.galeria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+  
+ul.galeria li {
+    list-style: none;
+}
+  
+ul.galeria li img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(146, 64, 64);
+    border-radius: 40%;
+}
+
+
+/* LIDANDO COM MEU MENU LATERAL DIREITO */
+#menu-lat-direito {
+    background-color: #504444;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 2rem;
+    padding:1rem;
+}
+
+#menu-lat-direito ul {
+    list-style: none;
+}
+
+#menu-lat-direito li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 40px;
+}
+
+#menu-lat-direito a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+/* ESTILIZANDO MEU RODAPÉ */
+
+footer {
+    background-color: rgb(146, 64, 64);
+    color: #fff;
+    padding: 2%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0%;
+    position: relative;
+}
+
+
